@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Thành Viên</title>
+    <link rel="stylesheet" href="format.css">
+</head>
+
+<body background="img/background.jpg" onload="count_variable()">
+    <div id="header">
+        <p>DANH SÁCH THÀNH VIÊN NHÓM 3</p>
+    </div>
+    <div id="left">
+        <select id="drop1" onclick="get_selection()">
+            <option>Nguyễn Ngọc Trang</option>
+            <option>Phạm Văn Trí Thành</option>
+            <option>Trần Minh Tường</option>
+            <option>Lê Trung Vinh</option>
+            <option>Trương Gia Thuận</option>
+            <option>Nguyễn Huỳnh Như Ý</option>
+        </select>
+        <h1>Thông tin</h1>
+        <table id="myTable" cellspacing="0">
+            <tr>
+                <td>Họ và tên</td>
+                <td>Nguyễn Ngọc Trang</td>
+            </tr>
+            <tr>
+                <td>MSSV</td>
+                <td>B1907203</td>
+            </tr>
+            <tr>
+                <td>Ngành</td>
+                <td>Kỹ thuật cơ điện tử</td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <div id="right">
+        <img id="img" src="img/Trang.jpg" alt="trang">
+    </div>
+    <div id="footer">
+        <p id="c1">Số lần truy cập: 0</p>
+    </div>
+    <script src="function.js"></script>
+</body>
+
+</html>

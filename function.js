@@ -146,7 +146,7 @@ function get_selection() {
             cell21.innerHTML = "Ngành";
             cell22.innerHTML = "Kỹ thuật cơ điện tử";
 
-            document.getElementById('img').src = 'img/Thuan.jfif';
+            document.getElementById('img').src = 'img/Thuan.jpg';
 
             break
         case 5:
